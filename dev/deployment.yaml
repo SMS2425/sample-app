@@ -14,10 +14,7 @@ spec:
     spec:
       containers:
       - name: dev-container
-<<<<<<< Updated upstream
-        image: europe-west4-docker.pkg.dev/qwiklabs-gcp-02-bf19ade58551/my-repository/hello-cloudbuild-dev:v1.0
-=======
         image: europe-west4-docker.pkg.devqwiklabs-gcp-02-bf19ade58551/my-repository/hello-cloudbuild-dev:v2.0
->>>>>>> Stashed changes
+
         ports:
         - containerPort: 8080
